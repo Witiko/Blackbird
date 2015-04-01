@@ -498,12 +498,12 @@ style "xfdesktop-icon-view" {
     font_name = "normal"
     XfdesktopIconView::label-alpha = 30
     XfdesktopIconView::selected-label-alpha = 60
-    XfdesktopIconView::shadow-color = shade (1.05, @fg_color)
-    XfdesktopIconView::selected-shadow-color = @fg_color
-    XfdesktopIconView::shadow-x-offset = -1
-    XfdesktopIconView::selected-shadow-x-offset = -1
-    XfdesktopIconView::shadow-y-offset = -1
-    XfdesktopIconView::selected-shadow-y-offset = -1
+  # XfdesktopIconView::shadow-color = shade (1.05, @fg_color)
+  # XfdesktopIconView::selected-shadow-color = @fg_color
+  # XfdesktopIconView::shadow-x-offset = -1
+  # XfdesktopIconView::selected-shadow-x-offset = -1
+  # XfdesktopIconView::shadow-y-offset = -1
+  # XfdesktopIconView::selected-shadow-y-offset = -1
     fg[NORMAL] = @selected_fg_color
     fg[ACTIVE] = @selected_fg_color
     engine "murrine"
