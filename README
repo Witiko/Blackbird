@@ -10,3 +10,6 @@ The Blackbird desktop suite includes:
 – GTK3 theme (WIP
 – Xfwm4 theme
 – Metacity theme
+
+To install the theme, `git clone` the repository into the
+`/usr/share/themes/` directory.
